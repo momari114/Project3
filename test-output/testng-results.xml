@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-24T13:08:29 EET" name="Default suite" finished-at="2023-10-24T13:08:40 EET" duration-ms="11189">
+    <groups>
+    </groups>
+    <test started-at="2023-10-24T13:08:29 EET" name="Default test" finished-at="2023-10-24T13:08:40 EET" duration-ms="11189">
+      <class name="multiLogIn">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:multiLogIn@d816dde]" started-at="2023-10-24T13:08:29 EET" name="mySetup" finished-at="2023-10-24T13:08:30 EET" duration-ms="1091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mySetup -->
+        <test-method signature="LoginWithPerformanceUser()[pri:0, instance:multiLogIn@d816dde]" started-at="2023-10-24T13:08:30 EET" name="LoginWithPerformanceUser" finished-at="2023-10-24T13:08:33 EET" duration-ms="3352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithPerformanceUser -->
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:multiLogIn@d816dde]" started-at="2023-10-24T13:08:33 EET" name="mySetup" finished-at="2023-10-24T13:08:33 EET" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mySetup -->
+        <test-method signature="LoginWithProblemUser()[pri:0, instance:multiLogIn@d816dde]" started-at="2023-10-24T13:08:33 EET" name="LoginWithProblemUser" finished-at="2023-10-24T13:08:36 EET" duration-ms="3276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithProblemUser -->
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:multiLogIn@d816dde]" started-at="2023-10-24T13:08:36 EET" name="mySetup" finished-at="2023-10-24T13:08:37 EET" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mySetup -->
+        <test-method signature="LoginWithStandardUser()[pri:0, instance:multiLogIn@d816dde]" started-at="2023-10-24T13:08:37 EET" name="LoginWithStandardUser" finished-at="2023-10-24T13:08:40 EET" duration-ms="3229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithStandardUser -->
+        <test-method is-config="true" signature="myPostTesting()[pri:0, instance:multiLogIn@d816dde]" started-at="2023-10-24T13:08:40 EET" name="myPostTesting" finished-at="2023-10-24T13:08:40 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myPostTesting -->
+      </class> <!-- multiLogIn -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
